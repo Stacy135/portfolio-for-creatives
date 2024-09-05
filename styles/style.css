@@ -80,29 +80,29 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Eczar", serif;
-  --project-title-typeface: "Eczar", serif;
-  --background-color: #fdfdfd;
-  --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;
-  --alt-background-color: #000000;
+  --body-typeface: "Alata", sans-serif;
+  --heading-typeface: "Alata", sans-serif;
+  --project-title-typeface: "Alata", sans-serif;
+  --background-color: #ffdbde;
+  --background-color-about: #ffdbde;
+  --background-color-footer: #ffdbde;
+  --alt-background-color: #ffdbde;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #c0737b;
+  --h2-color: #c0737b;
+  --h3-color: #c0737b;
+  --h4-color: #c0737b;
+  --h5-color: #c0737b;
+  --h6-color: #c0737b;
   --primary-text-color: #222;
-  --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
+  --holding-page-title-color: #ffdbde;
+  --accent-color: #fec0c6;
   --overlay-color: #5200ff;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #5200ff;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
+  --hover-color: rgb(211, 157, 157);
   --visited-color: #5200ff;
   --project-title-color: #5200ff;
   --project-sidebar-background-color: orangered;
