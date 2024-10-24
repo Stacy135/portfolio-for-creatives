@@ -104,8 +104,8 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: rgb(211, 157, 157);
   --visited-color: #ffffff;
-  --project-title-color: #ffdbde;
-  --project-sidebar-background-color: orangered;
+  --project-title-color: black;
+  --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: #2c2621;
   --heart-color: darkred;
   --holding-page-footer-color: #ffdbde;
@@ -551,16 +551,9 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
-  /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.large-emoji-placeholder {
-  font-size: 12rem;
-  /* TODO: Delete this rule. It is only used for making the placeholder emojis large for demo purposes only. */
 }
 
 .text-section {
@@ -578,13 +571,6 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* TODO: Delete background-image and the three linear gradient colors to remove the gradient background on the project page. Be careful not to delete the closing } */
-  background-image: linear-gradient(
-    -225deg,
-    var(--linear-gradient-color-1) 0%,
-    var(--linear-gradient-color-2) 50%,
-    var(--linear-gradient-color-3) 100%
-  );
 }
 
 /* 
@@ -606,7 +592,12 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)), url(/assets/temp/noise.svg);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
+    url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
