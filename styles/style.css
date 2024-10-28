@@ -86,7 +86,7 @@ html {
   --background-color-about: #ffdbde;
   --background-color-footer: #ffdbde;
   --alt-background-color: #ffdbde;
-  --background-color-holding-page: rgba(82, 0, 255, 0.6);
+  --background-color-holding-page: #c0737b;
   --h1-color: #c0737b;
   --h2-color: #c0737b;
   --h3-color: #c0737b;
@@ -98,12 +98,12 @@ html {
   --accent-color: #fec0c6;
   --overlay-color: #c0737b;
   --overlay-title-color: #ffdbde;
-  --overlay-description-color: #ffdbde;
-  --hyperlink-color: #2c2621;
+  --overlay-description-color: #c0737b;
+  --hyperlink-color: #c0737b;
   --hyperlink-alternate-color: orangered;
-  --hover-color: rgb(211, 157, 157);
-  --visited-color: #ffffff;
-  --project-title-color: black;
+  --hover-color: #2c2621;
+  --visited-color: #c0737b;
+  --project-title-color: #c0737b;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: #2c2621;
   --heart-color: darkred;
@@ -112,7 +112,7 @@ html {
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
-  --stroke-shadow-color: rgba(0, 0, 0, 0.4);
+  --stroke-shadow-color: #2c2621;
 }
 
 body {
@@ -593,7 +593,7 @@ a:active {
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
   background: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 1),
+      #fec0c6,
       var(--background-color-holding-page)
     ),
     url(/assets/temp/noise.svg);
