@@ -606,7 +606,12 @@ iframe {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: var(--background-color-holding-page);
+  background: rgb(255, 219, 222);
+  background: radial-gradient(
+    circle,
+    rgba(255, 219, 222, 1) 0%,
+    rgba(192, 115, 123, 1) 100%
+  );
 }
 
 .holding-page-animation {
