@@ -86,8 +86,8 @@ html {
   --alt-background-color: #ffdbde;
   --background-color-holding-page: #ffdbde;
   --border-color: #c0737b;
-  --h1-color: #c0737b;
-  --h2-color: #c0737b;
+  --h1-color: #863b42;
+  --h2-color: #863b42;
   --h3-color: #c0737b;
   --h4-color: #c0737b;
   --h5-color: #c0737b;
@@ -162,6 +162,7 @@ h2 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
+  line-height: 1.3;
 }
 
 h3 {
