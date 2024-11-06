@@ -550,6 +550,13 @@ a:active {
   flex-direction: column;
 }
 
+.image-row {
+  display: flex;
+  flex-direction: column;
+}
+.single-image {
+  padding: 1rem;
+}
 .project-image {
   width: 100%;
   display: flex;
@@ -822,6 +829,10 @@ iframe {
     flex-direction: row;
   }
 
+  .image-row {
+    display: flex;
+    flex-direction: row;
+  }
   .project-navigation {
     justify-content: flex-start;
   }
